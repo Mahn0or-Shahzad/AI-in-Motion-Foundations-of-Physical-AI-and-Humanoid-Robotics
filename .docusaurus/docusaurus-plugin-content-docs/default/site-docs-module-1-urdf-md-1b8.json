@@ -1,0 +1,26 @@
+{
+  "unversionedId": "module1/urdf",
+  "id": "module1/urdf",
+  "title": "URDF - Unified Robot Description Format",
+  "description": "URDF (Unified Robot Description Format) is an XML-based format used to describe robot models in ROS 2. It defines the physical and kinematic properties of a robot, including its joints, links, and geometric shapes. URDF is essential for simulation, visualization, and control of robotic systems, especially for complex robots like humanoids.",
+  "source": "@site/docs/module1/urdf.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/urdf",
+  "permalink": "/ai-in-motion/docs/module1/urdf",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/urdf.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "URDF - Unified Robot Description Format"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nodes, Topics, and Services",
+    "permalink": "/ai-in-motion/docs/module1/nodes-topics-services"
+  },
+  "next": {
+    "title": "Exercises",
+    "permalink": "/ai-in-motion/docs/module1/exercises"
+  }
+}

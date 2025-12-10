@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module3/vslam",
+  "id": "module3/vslam",
+  "title": "Visual SLAM with Isaac ROS",
+  "description": "Visual Simultaneous Localization and Mapping (VSLAM) is a critical capability for autonomous robots, allowing them to understand their environment and navigate without prior maps. In this section, we'll explore how to implement VSLAM using Isaac ROS tools and photorealistic Isaac Sim environments.",
+  "source": "@site/docs/module3/vslam.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/vslam",
+  "permalink": "/ai-in-motion/docs/module3/vslam",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/vslam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim for Photorealistic Simulation",
+    "permalink": "/ai-in-motion/docs/module3/isaac-sim"
+  },
+  "next": {
+    "title": "Navigation with Isaac Sim and Nav2",
+    "permalink": "/ai-in-motion/docs/module3/navigation"
+  }
+}

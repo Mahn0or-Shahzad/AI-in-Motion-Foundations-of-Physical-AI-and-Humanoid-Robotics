@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module2/unity-visualization",
+  "id": "module2/unity-visualization",
+  "title": "Unity Visualization",
+  "description": "Unity is a powerful 3D development platform that can be used to create immersive visualization environments for robotics applications. In this section, we'll explore how to integrate Unity with ROS 2 for human-robot interaction visualization.",
+  "source": "@site/docs/module2/unity-visualization.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/unity-visualization",
+  "permalink": "/ai-in-motion/docs/module2/unity-visualization",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/unity-visualization.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Simulation",
+    "permalink": "/ai-in-motion/docs/module2/gazebo-simulation"
+  },
+  "next": {
+    "title": "Sensor Simulation",
+    "permalink": "/ai-in-motion/docs/module2/sensors"
+  }
+}

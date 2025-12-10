@@ -1,0 +1,26 @@
+{
+  "unversionedId": "module1/exercises",
+  "id": "module1/exercises",
+  "title": "Exercises",
+  "description": "This section contains hands-on exercises to reinforce your understanding of ROS 2 concepts covered in this module. Work through these exercises to gain practical experience with ROS 2 nodes, topics, services, and URDF.",
+  "source": "@site/docs/module1/exercises.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/exercises",
+  "permalink": "/ai-in-motion/docs/module1/exercises",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Exercises"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF - Unified Robot Description Format",
+    "permalink": "/ai-in-motion/docs/module1/urdf"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin - Gazebo & Unity",
+    "permalink": "/ai-in-motion/docs/module2/intro"
+  }
+}

@@ -1,0 +1,208 @@
+#usda 1.0
+
+def Xform "World"
+{
+    def Xform "GroundPlane"
+    {
+        def PhysicsMaterial "physicsMaterial"
+        {
+            float dynamicFriction = 0.5
+            float staticFriction = 0.5
+            float restitution = 0
+        }
+
+        def Plane "plane"
+        {
+            matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            rel material:binding = </World/GroundPlane/physicsMaterial>
+        }
+    }
+
+    def Xform "Lighting"
+    {
+        def DistantLight "DistantLight"
+        {
+            float intensity = 3000
+            color3f color = (0.9, 0.9, 0.9)
+            float angle = 0.5
+            float distance = 100
+            bool visible = 1
+        }
+
+        def DomeLight "DomeLight"
+        {
+            float intensity = 0.5
+            color3f color = (1, 1, 1)
+            bool visible = 1
+        }
+    }
+
+    def Xform "Environment"
+    {
+        # Walls forming the course boundary
+        def Xform "NorthWall"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (0, 10, 1)
+                float3 size = (20, 0.2, 2)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "SouthWall"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (0, -10, 1)
+                float3 size = (20, 0.2, 2)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "EastWall"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (10, 0, 1)
+                float3 size = (0.2, 20, 2)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "WestWall"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (-10, 0, 1)
+                float3 size = (0.2, 20, 2)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        # Obstacles in the course
+        def Xform "Obstacle1"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (2, 2, 0.5)
+                float3 size = (1, 1, 1)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "Obstacle2"
+        {
+            def Cube "cube"
+            {
+                float3 xformOp:translate = (-3, -3, 0.5)
+                float3 size = (1.5, 1.5, 1)
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "Obstacle3"
+        {
+            def Cylinder "cylinder"
+            {
+                float3 xformOp:translate = (5, -2, 1)
+                float radius = 0.5
+                float height = 2
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        def Xform "Obstacle4"
+        {
+            def Sphere "sphere"
+            {
+                float3 xformOp:translate = (-5, 4, 0.5)
+                float radius = 0.7
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+            }
+        }
+
+        # Narrow passage
+        def Xform "NarrowPassage"
+        {
+            def Xform "LeftPillar"
+            {
+                def Cube "cube"
+                {
+                    float3 xformOp:translate = (-1, 6, 1)
+                    float3 size = (0.5, 0.5, 2)
+                    matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+                }
+            }
+
+            def Xform "RightPillar"
+            {
+                def Cube "cube"
+                {
+                    float3 xformOp:translate = (1, 6, 1)
+                    float3 size = (0.5, 0.5, 2)
+                    matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+                }
+            }
+        }
+
+        # Ramp obstacle
+        def Xform "Ramp"
+        {
+            def Xform "RampBase"
+            {
+                def Cube "cube"
+                {
+                    float3 xformOp:translate = (7, 0, 0.25)
+                    float3 size = (2, 4, 0.5)
+                    matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+                }
+            }
+
+            def Xform "RampSlope"
+            {
+                def Cone "cone"
+                {
+                    float3 xformOp:translate = (8, 0, 0.75)
+                    float height = 1
+                    float radius = 0.25
+                    matrix4d xformOp:transform = (1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1)
+                }
+            }
+        }
+
+        # Goal location
+        def Xform "GoalMarker"
+        {
+            def Cylinder "cylinder"
+            {
+                float3 xformOp:translate = (0, 8, 0.1)
+                float radius = 1.0
+                float height = 0.2
+                matrix4d xformOp:transform = (1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+
+                def Scope "Looks"
+                {
+                    def Material "PreviewSurface"
+                    {
+                        def Shader "Surface"
+                        {
+                            uniform token info:id = "UsdPreviewSurface"
+                            color3f inputs:diffuseColor = (0, 1, 0)  # Green for goal
+                            float inputs:metallic = 0
+                            float inputs:roughness = 0.4
+                        }
+
+                        rel outputs:surface = </World/Environment/GoalMarker/Cylinder/Looks/PreviewSurface/Surface>
+                    }
+                }
+            }
+        }
+    }
+
+    # Robot spawn location
+    def Xform "RobotSpawn"
+    {
+        float3 xformOp:translate = (-8, -8, 1)
+    }
+}

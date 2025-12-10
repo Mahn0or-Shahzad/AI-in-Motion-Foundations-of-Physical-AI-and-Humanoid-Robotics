@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module3/exercises",
+  "id": "module3/exercises",
+  "title": "Module 3 Exercises",
+  "description": "This section contains hands-on exercises to reinforce the concepts learned in Module 3: NVIDIA Isaac AI-Robot Brain.",
+  "source": "@site/docs/module3/exercises.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/exercises",
+  "permalink": "/ai-in-motion/docs/module3/exercises",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/exercises.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation with Isaac Sim and Nav2",
+    "permalink": "/ai-in-motion/docs/module3/navigation"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/ai-in-motion/docs/module4/intro"
+  }
+}

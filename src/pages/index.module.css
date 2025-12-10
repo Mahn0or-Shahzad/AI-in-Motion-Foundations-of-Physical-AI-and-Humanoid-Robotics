@@ -1,0 +1,22 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.buttons .button {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons .button {
+    width: 100%;
+    max-width: 200px;
+  }
+}

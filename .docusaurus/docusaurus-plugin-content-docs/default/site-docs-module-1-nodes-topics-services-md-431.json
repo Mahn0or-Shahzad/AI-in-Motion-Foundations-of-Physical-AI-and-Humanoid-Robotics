@@ -1,0 +1,26 @@
+{
+  "unversionedId": "module1/nodes-topics-services",
+  "id": "module1/nodes-topics-services",
+  "title": "Nodes, Topics, and Services",
+  "description": "In this section, we'll explore the fundamental communication mechanisms in ROS 2: Nodes, Topics, and Services. These elements form the core of how different parts of a robotic system interact with each other.",
+  "source": "@site/docs/module1/nodes-topics-services.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/nodes-topics-services",
+  "permalink": "/ai-in-motion/docs/module1/nodes-topics-services",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/nodes-topics-services.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Nodes, Topics, and Services"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Basics",
+    "permalink": "/ai-in-motion/docs/module1/ros-basics"
+  },
+  "next": {
+    "title": "URDF - Unified Robot Description Format",
+    "permalink": "/ai-in-motion/docs/module1/urdf"
+  }
+}

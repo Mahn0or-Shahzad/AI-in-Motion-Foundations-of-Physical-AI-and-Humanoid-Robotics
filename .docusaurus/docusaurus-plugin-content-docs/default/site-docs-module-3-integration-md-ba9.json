@@ -1,0 +1,15 @@
+{
+  "unversionedId": "module3/integration",
+  "id": "module3/integration",
+  "title": "integration",
+  "description": "This is a placeholder document for docs/module3/integration.md.",
+  "source": "@site/docs/module3/integration.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/integration",
+  "permalink": "/ai-in-motion/docs/module3/integration",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

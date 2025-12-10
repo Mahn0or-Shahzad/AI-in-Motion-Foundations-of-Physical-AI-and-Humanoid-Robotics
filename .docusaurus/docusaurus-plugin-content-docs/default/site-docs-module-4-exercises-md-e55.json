@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module4/exercises",
+  "id": "module4/exercises",
+  "title": "exercises",
+  "description": "This is a placeholder document for docs/module4/exercises.md.",
+  "source": "@site/docs/module4/exercises.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/exercises",
+  "permalink": "/ai-in-motion/docs/module4/exercises",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "integration",
+    "permalink": "/ai-in-motion/docs/module4/integration"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/ai-in-motion/docs/capstone/intro"
+  }
+}

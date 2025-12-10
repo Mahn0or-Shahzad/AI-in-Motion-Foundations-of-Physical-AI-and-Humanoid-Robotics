@@ -1,0 +1,925 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/ai-in-motion/docs",
+          "tagsPath": "/ai-in-motion/docs/tags",
+          "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs",
+          "editUrlLocalized": "https://github.com/your-username/ai-in-motion/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\FRIENDX COMPUTERS\\Desktop\\AI in Motion — Foundations of Physical AI and Humanoid Robotics\\sidebars.js",
+          "contentPath": "C:\\Users\\FRIENDX COMPUTERS\\Desktop\\AI in Motion — Foundations of Physical AI and Humanoid Robotics\\docs",
+          "contentPathLocalized": "C:\\Users\\FRIENDX COMPUTERS\\Desktop\\AI in Motion — Foundations of Physical AI and Humanoid Robotics\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "capstone/assessment",
+              "id": "capstone/assessment",
+              "title": "assessment",
+              "description": "This is a placeholder document for docs/capstone/assessment.md.",
+              "source": "@site/docs/capstone/assessment.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/assessment",
+              "permalink": "/ai-in-motion/docs/capstone/assessment",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/assessment.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "integration",
+                "permalink": "/ai-in-motion/docs/capstone/integration"
+              },
+              "next": {
+                "title": "exercises",
+                "permalink": "/ai-in-motion/docs/capstone/exercises"
+              }
+            },
+            {
+              "unversionedId": "capstone/exercises",
+              "id": "capstone/exercises",
+              "title": "exercises",
+              "description": "This is a placeholder document for docs/capstone/exercises.md.",
+              "source": "@site/docs/capstone/exercises.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/exercises",
+              "permalink": "/ai-in-motion/docs/capstone/exercises",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "assessment",
+                "permalink": "/ai-in-motion/docs/capstone/assessment"
+              },
+              "next": {
+                "title": "conclusion",
+                "permalink": "/ai-in-motion/docs/conclusion"
+              }
+            },
+            {
+              "unversionedId": "capstone/integration",
+              "id": "capstone/integration",
+              "title": "integration",
+              "description": "This is a placeholder document for docs/capstone/integration.md.",
+              "source": "@site/docs/capstone/integration.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/integration",
+              "permalink": "/ai-in-motion/docs/capstone/integration",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/integration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/ai-in-motion/docs/capstone/intro"
+              },
+              "next": {
+                "title": "assessment",
+                "permalink": "/ai-in-motion/docs/capstone/assessment"
+              }
+            },
+            {
+              "unversionedId": "capstone/intro",
+              "id": "capstone/intro",
+              "title": "intro",
+              "description": "This is a placeholder document for docs/capstone/intro.md.",
+              "source": "@site/docs/capstone/intro.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/intro",
+              "permalink": "/ai-in-motion/docs/capstone/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "exercises",
+                "permalink": "/ai-in-motion/docs/module4/exercises"
+              },
+              "next": {
+                "title": "integration",
+                "permalink": "/ai-in-motion/docs/capstone/integration"
+              }
+            },
+            {
+              "unversionedId": "conclusion",
+              "id": "conclusion",
+              "title": "conclusion",
+              "description": "This is a placeholder document for docs/conclusion.md.",
+              "source": "@site/docs/conclusion.md",
+              "sourceDirName": ".",
+              "slug": "/conclusion",
+              "permalink": "/ai-in-motion/docs/conclusion",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/conclusion.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "exercises",
+                "permalink": "/ai-in-motion/docs/capstone/exercises"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introduction to AI in Motion",
+              "description": "Welcome to AI in Motion: Foundations of Physical AI and Humanoid Robotics! This comprehensive curriculum teaches Physical AI and Humanoid Robotics through a structured, hands-on approach. The course combines theoretical knowledge with practical implementation using ROS 2, simulation environments, and AI technologies.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/ai-in-motion/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Introduction to ROS 2",
+                "permalink": "/ai-in-motion/docs/module1/intro"
+              }
+            },
+            {
+              "unversionedId": "module1/exercises",
+              "id": "module1/exercises",
+              "title": "Exercises",
+              "description": "This section contains hands-on exercises to reinforce your understanding of ROS 2 concepts covered in this module. Work through these exercises to gain practical experience with ROS 2 nodes, topics, services, and URDF.",
+              "source": "@site/docs/module1/exercises.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/exercises",
+              "permalink": "/ai-in-motion/docs/module1/exercises",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Exercises"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "URDF - Unified Robot Description Format",
+                "permalink": "/ai-in-motion/docs/module1/urdf"
+              },
+              "next": {
+                "title": "Module 2: Digital Twin - Gazebo & Unity",
+                "permalink": "/ai-in-motion/docs/module2/intro"
+              }
+            },
+            {
+              "unversionedId": "module1/intro",
+              "id": "module1/intro",
+              "title": "Introduction to ROS 2",
+              "description": "Welcome to Module 1: The Robotic Nervous System! This module introduces you to ROS 2 (Robot Operating System 2), which serves as the communication backbone for modern robotics applications. Think of ROS 2 as the nervous system of a robot - it enables different parts of the robot to communicate with each other, share sensor data, and coordinate complex behaviors.",
+              "source": "@site/docs/module1/intro.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/intro",
+              "permalink": "/ai-in-motion/docs/module1/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Introduction to ROS 2"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to AI in Motion",
+                "permalink": "/ai-in-motion/docs/intro"
+              },
+              "next": {
+                "title": "ROS 2 Basics",
+                "permalink": "/ai-in-motion/docs/module1/ros-basics"
+              }
+            },
+            {
+              "unversionedId": "module1/nodes-topics-services",
+              "id": "module1/nodes-topics-services",
+              "title": "Nodes, Topics, and Services",
+              "description": "In this section, we'll explore the fundamental communication mechanisms in ROS 2: Nodes, Topics, and Services. These elements form the core of how different parts of a robotic system interact with each other.",
+              "source": "@site/docs/module1/nodes-topics-services.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/nodes-topics-services",
+              "permalink": "/ai-in-motion/docs/module1/nodes-topics-services",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/nodes-topics-services.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Nodes, Topics, and Services"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ROS 2 Basics",
+                "permalink": "/ai-in-motion/docs/module1/ros-basics"
+              },
+              "next": {
+                "title": "URDF - Unified Robot Description Format",
+                "permalink": "/ai-in-motion/docs/module1/urdf"
+              }
+            },
+            {
+              "unversionedId": "module1/ros-basics",
+              "id": "module1/ros-basics",
+              "title": "ROS 2 Basics",
+              "description": "In this section, we'll cover the fundamental concepts of ROS 2 (Robot Operating System 2), which serves as the communication backbone for robotic applications.",
+              "source": "@site/docs/module1/ros-basics.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/ros-basics",
+              "permalink": "/ai-in-motion/docs/module1/ros-basics",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/ros-basics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to ROS 2",
+                "permalink": "/ai-in-motion/docs/module1/intro"
+              },
+              "next": {
+                "title": "Nodes, Topics, and Services",
+                "permalink": "/ai-in-motion/docs/module1/nodes-topics-services"
+              }
+            },
+            {
+              "unversionedId": "module1/urdf",
+              "id": "module1/urdf",
+              "title": "URDF - Unified Robot Description Format",
+              "description": "URDF (Unified Robot Description Format) is an XML-based format used to describe robot models in ROS 2. It defines the physical and kinematic properties of a robot, including its joints, links, and geometric shapes. URDF is essential for simulation, visualization, and control of robotic systems, especially for complex robots like humanoids.",
+              "source": "@site/docs/module1/urdf.md",
+              "sourceDirName": "module1",
+              "slug": "/module1/urdf",
+              "permalink": "/ai-in-motion/docs/module1/urdf",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/urdf.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "URDF - Unified Robot Description Format"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Nodes, Topics, and Services",
+                "permalink": "/ai-in-motion/docs/module1/nodes-topics-services"
+              },
+              "next": {
+                "title": "Exercises",
+                "permalink": "/ai-in-motion/docs/module1/exercises"
+              }
+            },
+            {
+              "unversionedId": "module2/exercises",
+              "id": "module2/exercises",
+              "title": "Module 2 Exercises",
+              "description": "This section contains hands-on exercises to reinforce the concepts learned in Module 2: Digital Twin - Gazebo & Unity.",
+              "source": "@site/docs/module2/exercises.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/exercises",
+              "permalink": "/ai-in-motion/docs/module2/exercises",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/exercises.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sensor Simulation",
+                "permalink": "/ai-in-motion/docs/module2/sensors"
+              },
+              "next": {
+                "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "permalink": "/ai-in-motion/docs/module3/intro"
+              }
+            },
+            {
+              "unversionedId": "module2/gazebo-simulation",
+              "id": "module2/gazebo-simulation",
+              "title": "Gazebo Simulation",
+              "description": "Gazebo is a powerful 3D simulation environment that provides accurate physics simulation, high-quality graphics, and convenient programmatic interfaces. In this section, we'll learn how to create realistic simulation environments for humanoid robots.",
+              "source": "@site/docs/module2/gazebo-simulation.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/gazebo-simulation",
+              "permalink": "/ai-in-motion/docs/module2/gazebo-simulation",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/gazebo-simulation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2: Digital Twin - Gazebo & Unity",
+                "permalink": "/ai-in-motion/docs/module2/intro"
+              },
+              "next": {
+                "title": "Unity Visualization",
+                "permalink": "/ai-in-motion/docs/module2/unity-visualization"
+              }
+            },
+            {
+              "unversionedId": "module2/integration",
+              "id": "module2/integration",
+              "title": "integration",
+              "description": "This is a placeholder document for docs/module2/integration.md.",
+              "source": "@site/docs/module2/integration.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/integration",
+              "permalink": "/ai-in-motion/docs/module2/integration",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/integration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "module2/intro",
+              "id": "module2/intro",
+              "title": "Module 2: Digital Twin - Gazebo & Unity",
+              "description": "Welcome to Module 2 of the AI in Motion curriculum! This module focuses on creating digital twins using Gazebo simulation and Unity visualization. You'll learn how to simulate physics, sensors, and create immersive human-robot interaction experiences.",
+              "source": "@site/docs/module2/intro.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/intro",
+              "permalink": "/ai-in-motion/docs/module2/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exercises",
+                "permalink": "/ai-in-motion/docs/module1/exercises"
+              },
+              "next": {
+                "title": "Gazebo Simulation",
+                "permalink": "/ai-in-motion/docs/module2/gazebo-simulation"
+              }
+            },
+            {
+              "unversionedId": "module2/sensors",
+              "id": "module2/sensors",
+              "title": "Sensor Simulation",
+              "description": "Robots rely on various sensors to perceive their environment and make informed decisions. In this section, we'll explore how to simulate different types of sensors in our digital twin environment.",
+              "source": "@site/docs/module2/sensors.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/sensors",
+              "permalink": "/ai-in-motion/docs/module2/sensors",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/sensors.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Unity Visualization",
+                "permalink": "/ai-in-motion/docs/module2/unity-visualization"
+              },
+              "next": {
+                "title": "Module 2 Exercises",
+                "permalink": "/ai-in-motion/docs/module2/exercises"
+              }
+            },
+            {
+              "unversionedId": "module2/unity-visualization",
+              "id": "module2/unity-visualization",
+              "title": "Unity Visualization",
+              "description": "Unity is a powerful 3D development platform that can be used to create immersive visualization environments for robotics applications. In this section, we'll explore how to integrate Unity with ROS 2 for human-robot interaction visualization.",
+              "source": "@site/docs/module2/unity-visualization.md",
+              "sourceDirName": "module2",
+              "slug": "/module2/unity-visualization",
+              "permalink": "/ai-in-motion/docs/module2/unity-visualization",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/unity-visualization.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gazebo Simulation",
+                "permalink": "/ai-in-motion/docs/module2/gazebo-simulation"
+              },
+              "next": {
+                "title": "Sensor Simulation",
+                "permalink": "/ai-in-motion/docs/module2/sensors"
+              }
+            },
+            {
+              "unversionedId": "module3/exercises",
+              "id": "module3/exercises",
+              "title": "Module 3 Exercises",
+              "description": "This section contains hands-on exercises to reinforce the concepts learned in Module 3: NVIDIA Isaac AI-Robot Brain.",
+              "source": "@site/docs/module3/exercises.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/exercises",
+              "permalink": "/ai-in-motion/docs/module3/exercises",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/exercises.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Navigation with Isaac Sim and Nav2",
+                "permalink": "/ai-in-motion/docs/module3/navigation"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/ai-in-motion/docs/module4/intro"
+              }
+            },
+            {
+              "unversionedId": "module3/integration",
+              "id": "module3/integration",
+              "title": "integration",
+              "description": "This is a placeholder document for docs/module3/integration.md.",
+              "source": "@site/docs/module3/integration.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/integration",
+              "permalink": "/ai-in-motion/docs/module3/integration",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/integration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "module3/intro",
+              "id": "module3/intro",
+              "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+              "description": "Welcome to Module 3 of the AI in Motion curriculum! This module focuses on NVIDIA Isaac Sim for photorealistic simulation and Isaac ROS for advanced robotics capabilities including VSLAM and navigation. You'll learn how to leverage Isaac's powerful tools for AI-driven robotics applications.",
+              "source": "@site/docs/module3/intro.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/intro",
+              "permalink": "/ai-in-motion/docs/module3/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 2 Exercises",
+                "permalink": "/ai-in-motion/docs/module2/exercises"
+              },
+              "next": {
+                "title": "Isaac Sim for Photorealistic Simulation",
+                "permalink": "/ai-in-motion/docs/module3/isaac-sim"
+              }
+            },
+            {
+              "unversionedId": "module3/isaac-sim",
+              "id": "module3/isaac-sim",
+              "title": "Isaac Sim for Photorealistic Simulation",
+              "description": "NVIDIA Isaac Sim is a powerful, modular simulation environment that provides photorealistic environments for training AI models for robotics applications. In this section, we'll explore how to use Isaac Sim for creating realistic training environments for humanoid robots.",
+              "source": "@site/docs/module3/isaac-sim.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/isaac-sim",
+              "permalink": "/ai-in-motion/docs/module3/isaac-sim",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/isaac-sim.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "permalink": "/ai-in-motion/docs/module3/intro"
+              },
+              "next": {
+                "title": "Visual SLAM with Isaac ROS",
+                "permalink": "/ai-in-motion/docs/module3/vslam"
+              }
+            },
+            {
+              "unversionedId": "module3/navigation",
+              "id": "module3/navigation",
+              "title": "Navigation with Isaac Sim and Nav2",
+              "description": "Navigation is a fundamental capability for mobile robots, enabling them to autonomously move from one location to another while avoiding obstacles. In this section, we'll explore how to configure and use Nav2 with Isaac Sim for bipedal humanoid robot navigation.",
+              "source": "@site/docs/module3/navigation.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/navigation",
+              "permalink": "/ai-in-motion/docs/module3/navigation",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/navigation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Visual SLAM with Isaac ROS",
+                "permalink": "/ai-in-motion/docs/module3/vslam"
+              },
+              "next": {
+                "title": "Module 3 Exercises",
+                "permalink": "/ai-in-motion/docs/module3/exercises"
+              }
+            },
+            {
+              "unversionedId": "module3/vslam",
+              "id": "module3/vslam",
+              "title": "Visual SLAM with Isaac ROS",
+              "description": "Visual Simultaneous Localization and Mapping (VSLAM) is a critical capability for autonomous robots, allowing them to understand their environment and navigate without prior maps. In this section, we'll explore how to implement VSLAM using Isaac ROS tools and photorealistic Isaac Sim environments.",
+              "source": "@site/docs/module3/vslam.md",
+              "sourceDirName": "module3",
+              "slug": "/module3/vslam",
+              "permalink": "/ai-in-motion/docs/module3/vslam",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/vslam.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Isaac Sim for Photorealistic Simulation",
+                "permalink": "/ai-in-motion/docs/module3/isaac-sim"
+              },
+              "next": {
+                "title": "Navigation with Isaac Sim and Nav2",
+                "permalink": "/ai-in-motion/docs/module3/navigation"
+              }
+            },
+            {
+              "unversionedId": "module4/cognitive-planning",
+              "id": "module4/cognitive-planning",
+              "title": "cognitive-planning",
+              "description": "This is a placeholder document for docs/module4/cognitive-planning.md.",
+              "source": "@site/docs/module4/cognitive-planning.md",
+              "sourceDirName": "module4",
+              "slug": "/module4/cognitive-planning",
+              "permalink": "/ai-in-motion/docs/module4/cognitive-planning",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/cognitive-planning.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "voice-processing",
+                "permalink": "/ai-in-motion/docs/module4/voice-processing"
+              },
+              "next": {
+                "title": "integration",
+                "permalink": "/ai-in-motion/docs/module4/integration"
+              }
+            },
+            {
+              "unversionedId": "module4/exercises",
+              "id": "module4/exercises",
+              "title": "exercises",
+              "description": "This is a placeholder document for docs/module4/exercises.md.",
+              "source": "@site/docs/module4/exercises.md",
+              "sourceDirName": "module4",
+              "slug": "/module4/exercises",
+              "permalink": "/ai-in-motion/docs/module4/exercises",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/exercises.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "integration",
+                "permalink": "/ai-in-motion/docs/module4/integration"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/ai-in-motion/docs/capstone/intro"
+              }
+            },
+            {
+              "unversionedId": "module4/integration",
+              "id": "module4/integration",
+              "title": "integration",
+              "description": "This is a placeholder document for docs/module4/integration.md.",
+              "source": "@site/docs/module4/integration.md",
+              "sourceDirName": "module4",
+              "slug": "/module4/integration",
+              "permalink": "/ai-in-motion/docs/module4/integration",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/integration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "cognitive-planning",
+                "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
+              },
+              "next": {
+                "title": "exercises",
+                "permalink": "/ai-in-motion/docs/module4/exercises"
+              }
+            },
+            {
+              "unversionedId": "module4/intro",
+              "id": "module4/intro",
+              "title": "intro",
+              "description": "This is a placeholder document for docs/module4/intro.md.",
+              "source": "@site/docs/module4/intro.md",
+              "sourceDirName": "module4",
+              "slug": "/module4/intro",
+              "permalink": "/ai-in-motion/docs/module4/intro",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Module 3 Exercises",
+                "permalink": "/ai-in-motion/docs/module3/exercises"
+              },
+              "next": {
+                "title": "voice-processing",
+                "permalink": "/ai-in-motion/docs/module4/voice-processing"
+              }
+            },
+            {
+              "unversionedId": "module4/voice-processing",
+              "id": "module4/voice-processing",
+              "title": "voice-processing",
+              "description": "This is a placeholder document for docs/module4/voice-processing.md.",
+              "source": "@site/docs/module4/voice-processing.md",
+              "sourceDirName": "module4",
+              "slug": "/module4/voice-processing",
+              "permalink": "/ai-in-motion/docs/module4/voice-processing",
+              "draft": false,
+              "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/voice-processing.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/ai-in-motion/docs/module4/intro"
+              },
+              "next": {
+                "title": "cognitive-planning",
+                "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Module 1: ROS 2 - Robotic Nervous System",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module1/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module1/ros-basics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module1/nodes-topics-services"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module1/urdf"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module1/exercises"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twin - Gazebo & Unity",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module2/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module2/gazebo-simulation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module2/unity-visualization"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module2/sensors"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module2/exercises"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: NVIDIA Isaac AI-Robot Brain",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module3/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module3/isaac-sim"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module3/vslam"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module3/navigation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module3/exercises"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module4/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module4/voice-processing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module4/cognitive-planning"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module4/integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module4/exercises"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Capstone: Autonomous Humanoid",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "capstone/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/assessment"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "capstone/exercises"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "conclusion"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "/first-post",
+          "metadata": {
+            "permalink": "/ai-in-motion/blog/first-post",
+            "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/blog/first-post.md",
+            "source": "@site/blog/first-post.md",
+            "title": "Getting Started with AI in Motion: Your First Humanoid Robot Simulation",
+            "description": "Welcome to AI in Motion: Foundations of Physical AI and Humanoid Robotics! In this post, we will guide you through setting up your first humanoid robot simulation using ROS 2 and Gazebo.",
+            "date": "2025-12-09T17:04:32.784Z",
+            "formattedDate": "December 9, 2025",
+            "tags": [],
+            "readingTime": 0.53,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "title": "Getting Started with AI in Motion: Your First Humanoid Robot Simulation"
+            }
+          },
+          "content": "Welcome to **AI in Motion: Foundations of Physical AI and Humanoid Robotics**! In this post, we will guide you through setting up your first humanoid robot simulation using ROS 2 and Gazebo.\n\n**Steps to get started:**\n1. Ensure your development environment is ready (ROS 2, Gazebo, Python).\n2. Open Module 1 tutorials in the Docs section to understand basic ROS 2 nodes and topics.\n3. Run the provided simulation scripts to see your humanoid robot move.\n\nThis blog will help you get hands-on experience and complement the tutorials. Screenshots, visual guides, and tips will follow in upcoming posts. Explore, experiment, and enjoy building your first robot!"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "/first-post"
+          ],
+          "metadata": {
+            "permalink": "/ai-in-motion/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": "/ai-in-motion/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/ai-in-motion/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "translate-plugin": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

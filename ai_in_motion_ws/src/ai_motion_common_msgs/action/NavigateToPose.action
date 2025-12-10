@@ -1,0 +1,16 @@
+# NavigateToPose.action
+# Action for navigating to a specific pose
+
+# Goal
+geometry_msgs/PoseStamped target_pose
+float32 tolerance
+
+---
+# Result
+int32 status  # 0=SUCCESS, 1=FAILED, 2=CANCELLED
+string message
+
+---
+# Feedback
+float32 distance_remaining
+geometry_msgs/Pose current_pose

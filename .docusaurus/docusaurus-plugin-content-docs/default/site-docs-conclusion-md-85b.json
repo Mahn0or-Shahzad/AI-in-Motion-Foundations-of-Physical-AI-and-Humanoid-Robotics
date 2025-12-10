@@ -1,0 +1,20 @@
+{
+  "unversionedId": "conclusion",
+  "id": "conclusion",
+  "title": "conclusion",
+  "description": "This is a placeholder document for docs/conclusion.md.",
+  "source": "@site/docs/conclusion.md",
+  "sourceDirName": ".",
+  "slug": "/conclusion",
+  "permalink": "/ai-in-motion/docs/conclusion",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/conclusion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "exercises",
+    "permalink": "/ai-in-motion/docs/capstone/exercises"
+  }
+}

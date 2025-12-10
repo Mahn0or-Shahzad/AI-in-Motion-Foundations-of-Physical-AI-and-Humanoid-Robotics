@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module2/gazebo-simulation",
+  "id": "module2/gazebo-simulation",
+  "title": "Gazebo Simulation",
+  "description": "Gazebo is a powerful 3D simulation environment that provides accurate physics simulation, high-quality graphics, and convenient programmatic interfaces. In this section, we'll learn how to create realistic simulation environments for humanoid robots.",
+  "source": "@site/docs/module2/gazebo-simulation.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/gazebo-simulation",
+  "permalink": "/ai-in-motion/docs/module2/gazebo-simulation",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/gazebo-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: Digital Twin - Gazebo & Unity",
+    "permalink": "/ai-in-motion/docs/module2/intro"
+  },
+  "next": {
+    "title": "Unity Visualization",
+    "permalink": "/ai-in-motion/docs/module2/unity-visualization"
+  }
+}

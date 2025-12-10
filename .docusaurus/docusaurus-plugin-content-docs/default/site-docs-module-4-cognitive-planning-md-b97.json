@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module4/cognitive-planning",
+  "id": "module4/cognitive-planning",
+  "title": "cognitive-planning",
+  "description": "This is a placeholder document for docs/module4/cognitive-planning.md.",
+  "source": "@site/docs/module4/cognitive-planning.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/cognitive-planning",
+  "permalink": "/ai-in-motion/docs/module4/cognitive-planning",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/cognitive-planning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "voice-processing",
+    "permalink": "/ai-in-motion/docs/module4/voice-processing"
+  },
+  "next": {
+    "title": "integration",
+    "permalink": "/ai-in-motion/docs/module4/integration"
+  }
+}

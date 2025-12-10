@@ -1,0 +1,16 @@
+{
+  "permalink": "/ai-in-motion/blog/first-post",
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/blog/first-post.md",
+  "source": "@site/blog/first-post.md",
+  "title": "Getting Started with AI in Motion: Your First Humanoid Robot Simulation",
+  "description": "Welcome to AI in Motion: Foundations of Physical AI and Humanoid Robotics! In this post, we will guide you through setting up your first humanoid robot simulation using ROS 2 and Gazebo.",
+  "date": "2025-12-09T17:04:32.784Z",
+  "formattedDate": "December 9, 2025",
+  "tags": [],
+  "readingTime": 0.53,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "title": "Getting Started with AI in Motion: Your First Humanoid Robot Simulation"
+  }
+}

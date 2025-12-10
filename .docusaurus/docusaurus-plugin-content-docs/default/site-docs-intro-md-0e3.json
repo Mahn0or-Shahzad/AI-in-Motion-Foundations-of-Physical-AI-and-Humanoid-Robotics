@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introduction to AI in Motion",
+  "description": "Welcome to AI in Motion: Foundations of Physical AI and Humanoid Robotics! This comprehensive curriculum teaches Physical AI and Humanoid Robotics through a structured, hands-on approach. The course combines theoretical knowledge with practical implementation using ROS 2, simulation environments, and AI technologies.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ai-in-motion/docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction to ROS 2",
+    "permalink": "/ai-in-motion/docs/module1/intro"
+  }
+}

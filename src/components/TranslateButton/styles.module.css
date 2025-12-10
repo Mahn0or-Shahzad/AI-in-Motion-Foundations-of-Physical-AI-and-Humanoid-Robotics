@@ -1,0 +1,31 @@
+.translateButton {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.translateButton:hover {
+  background-color: #3367d6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.translateButton.translated {
+  background-color: #34a853;
+}
+
+.translateButton.translated:hover {
+  background-color: #2e8b47;
+}
+
+.translateButton:active {
+  transform: translateY(0);
+}

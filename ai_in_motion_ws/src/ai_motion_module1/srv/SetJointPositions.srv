@@ -1,0 +1,11 @@
+# SetJointPositions.srv
+# Service for setting specific joint positions
+
+# Request
+string[] joint_names
+float64[] positions
+
+---
+# Response
+bool success
+string message

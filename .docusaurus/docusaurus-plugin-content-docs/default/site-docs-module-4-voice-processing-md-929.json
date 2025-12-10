@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module4/voice-processing",
+  "id": "module4/voice-processing",
+  "title": "voice-processing",
+  "description": "This is a placeholder document for docs/module4/voice-processing.md.",
+  "source": "@site/docs/module4/voice-processing.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/voice-processing",
+  "permalink": "/ai-in-motion/docs/module4/voice-processing",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/voice-processing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/ai-in-motion/docs/module4/intro"
+  },
+  "next": {
+    "title": "cognitive-planning",
+    "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
+  }
+}

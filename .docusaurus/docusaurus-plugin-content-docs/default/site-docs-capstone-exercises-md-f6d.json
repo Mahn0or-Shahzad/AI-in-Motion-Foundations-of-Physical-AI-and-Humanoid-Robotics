@@ -1,0 +1,24 @@
+{
+  "unversionedId": "capstone/exercises",
+  "id": "capstone/exercises",
+  "title": "exercises",
+  "description": "This is a placeholder document for docs/capstone/exercises.md.",
+  "source": "@site/docs/capstone/exercises.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/exercises",
+  "permalink": "/ai-in-motion/docs/capstone/exercises",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "assessment",
+    "permalink": "/ai-in-motion/docs/capstone/assessment"
+  },
+  "next": {
+    "title": "conclusion",
+    "permalink": "/ai-in-motion/docs/conclusion"
+  }
+}

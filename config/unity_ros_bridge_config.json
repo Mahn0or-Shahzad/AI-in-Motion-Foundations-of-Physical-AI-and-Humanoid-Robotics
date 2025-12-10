@@ -1,0 +1,83 @@
+{
+  "unity_ros_bridge": {
+    "connection": {
+      "protocol": "websocket",
+      "address": "ws://localhost:9090",
+      "reconnect_interval_ms": 1000,
+      "timeout_ms": 5000
+    },
+    "topics": {
+      "robot_state": {
+        "subscribe": {
+          "topic_name": "/joint_states",
+          "message_type": "sensor_msgs/JointState",
+          "queue_size": 10,
+          "rate_hz": 30
+        },
+        "publish": {
+          "topic_name": "/unity_robot_commands",
+          "message_type": "sensor_msgs/JointState",
+          "queue_size": 10
+        }
+      },
+      "sensor_data": {
+        "subscribe": [
+          {
+            "topic_name": "/sensors/lidar/scan",
+            "message_type": "sensor_msgs/LaserScan",
+            "queue_size": 10,
+            "rate_hz": 10
+          },
+          {
+            "topic_name": "/sensors/imu/data",
+            "message_type": "sensor_msgs/Imu",
+            "queue_size": 10,
+            "rate_hz": 100
+          },
+          {
+            "topic_name": "/sensors/camera/rgb/image_raw",
+            "message_type": "sensor_msgs/Image",
+            "queue_size": 1,
+            "rate_hz": 30
+          }
+        ]
+      },
+      "visualization": {
+        "publish": [
+          {
+            "topic_name": "/unity_visualization_markers",
+            "message_type": "visualization_msgs/MarkerArray",
+            "queue_size": 100
+          },
+          {
+            "topic_name": "/unity_robot_pose",
+            "message_type": "geometry_msgs/PoseStamped",
+            "queue_size": 10
+          }
+        ]
+      }
+    },
+    "transforms": {
+      "enable_tf_broadcasting": true,
+      "tf_topic": "/tf",
+      "tf_static_topic": "/tf_static",
+      "frames": {
+        "world": "world",
+        "robot_base": "base_link",
+        "lidar": "lidar_link",
+        "camera": "camera_link",
+        "imu": "imu_link"
+      }
+    },
+    "performance": {
+      "max_message_size_bytes": 10485760,
+      "throttle_rate_hz": 60,
+      "enable_compression": true
+    },
+    "security": {
+      "enable_authentication": false,
+      "certificate_path": "",
+      "private_key_path": ""
+    }
+  }
+}

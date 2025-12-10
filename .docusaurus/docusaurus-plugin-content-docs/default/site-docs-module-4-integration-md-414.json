@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module4/integration",
+  "id": "module4/integration",
+  "title": "integration",
+  "description": "This is a placeholder document for docs/module4/integration.md.",
+  "source": "@site/docs/module4/integration.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/integration",
+  "permalink": "/ai-in-motion/docs/module4/integration",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "cognitive-planning",
+    "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
+  },
+  "next": {
+    "title": "exercises",
+    "permalink": "/ai-in-motion/docs/module4/exercises"
+  }
+}

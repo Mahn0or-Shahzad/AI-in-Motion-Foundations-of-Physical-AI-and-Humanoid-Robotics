@@ -1,0 +1,24 @@
+{
+  "unversionedId": "capstone/assessment",
+  "id": "capstone/assessment",
+  "title": "assessment",
+  "description": "This is a placeholder document for docs/capstone/assessment.md.",
+  "source": "@site/docs/capstone/assessment.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/assessment",
+  "permalink": "/ai-in-motion/docs/capstone/assessment",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/assessment.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "integration",
+    "permalink": "/ai-in-motion/docs/capstone/integration"
+  },
+  "next": {
+    "title": "exercises",
+    "permalink": "/ai-in-motion/docs/capstone/exercises"
+  }
+}

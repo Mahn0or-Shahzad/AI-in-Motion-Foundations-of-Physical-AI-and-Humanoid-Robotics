@@ -1,0 +1,24 @@
+{
+  "unversionedId": "capstone/integration",
+  "id": "capstone/integration",
+  "title": "integration",
+  "description": "This is a placeholder document for docs/capstone/integration.md.",
+  "source": "@site/docs/capstone/integration.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/integration",
+  "permalink": "/ai-in-motion/docs/capstone/integration",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/ai-in-motion/docs/capstone/intro"
+  },
+  "next": {
+    "title": "assessment",
+    "permalink": "/ai-in-motion/docs/capstone/assessment"
+  }
+}

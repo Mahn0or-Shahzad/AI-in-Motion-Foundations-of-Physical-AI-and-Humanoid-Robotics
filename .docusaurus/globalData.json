@@ -1,0 +1,166 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ai-in-motion/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ai-in-motion/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "capstone/assessment",
+              "path": "/ai-in-motion/docs/capstone/assessment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/exercises",
+              "path": "/ai-in-motion/docs/capstone/exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/integration",
+              "path": "/ai-in-motion/docs/capstone/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "capstone/intro",
+              "path": "/ai-in-motion/docs/capstone/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conclusion",
+              "path": "/ai-in-motion/docs/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/ai-in-motion/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/exercises",
+              "path": "/ai-in-motion/docs/module1/exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/intro",
+              "path": "/ai-in-motion/docs/module1/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/nodes-topics-services",
+              "path": "/ai-in-motion/docs/module1/nodes-topics-services",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/ros-basics",
+              "path": "/ai-in-motion/docs/module1/ros-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1/urdf",
+              "path": "/ai-in-motion/docs/module1/urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/exercises",
+              "path": "/ai-in-motion/docs/module2/exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/gazebo-simulation",
+              "path": "/ai-in-motion/docs/module2/gazebo-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/integration",
+              "path": "/ai-in-motion/docs/module2/integration"
+            },
+            {
+              "id": "module2/intro",
+              "path": "/ai-in-motion/docs/module2/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/sensors",
+              "path": "/ai-in-motion/docs/module2/sensors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2/unity-visualization",
+              "path": "/ai-in-motion/docs/module2/unity-visualization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/exercises",
+              "path": "/ai-in-motion/docs/module3/exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/integration",
+              "path": "/ai-in-motion/docs/module3/integration"
+            },
+            {
+              "id": "module3/intro",
+              "path": "/ai-in-motion/docs/module3/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/isaac-sim",
+              "path": "/ai-in-motion/docs/module3/isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/navigation",
+              "path": "/ai-in-motion/docs/module3/navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3/vslam",
+              "path": "/ai-in-motion/docs/module3/vslam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/cognitive-planning",
+              "path": "/ai-in-motion/docs/module4/cognitive-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/exercises",
+              "path": "/ai-in-motion/docs/module4/exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/integration",
+              "path": "/ai-in-motion/docs/module4/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/intro",
+              "path": "/ai-in-motion/docs/module4/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4/voice-processing",
+              "path": "/ai-in-motion/docs/module4/voice-processing",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ai-in-motion/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

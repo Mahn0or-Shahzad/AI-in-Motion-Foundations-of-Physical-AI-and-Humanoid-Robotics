@@ -1,0 +1,26 @@
+{
+  "unversionedId": "module1/intro",
+  "id": "module1/intro",
+  "title": "Introduction to ROS 2",
+  "description": "Welcome to Module 1: The Robotic Nervous System! This module introduces you to ROS 2 (Robot Operating System 2), which serves as the communication backbone for modern robotics applications. Think of ROS 2 as the nervous system of a robot - it enables different parts of the robot to communicate with each other, share sensor data, and coordinate complex behaviors.",
+  "source": "@site/docs/module1/intro.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/intro",
+  "permalink": "/ai-in-motion/docs/module1/intro",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction to ROS 2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to AI in Motion",
+    "permalink": "/ai-in-motion/docs/intro"
+  },
+  "next": {
+    "title": "ROS 2 Basics",
+    "permalink": "/ai-in-motion/docs/module1/ros-basics"
+  }
+}

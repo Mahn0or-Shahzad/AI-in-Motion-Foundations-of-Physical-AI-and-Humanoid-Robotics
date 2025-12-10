@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module2/sensors",
+  "id": "module2/sensors",
+  "title": "Sensor Simulation",
+  "description": "Robots rely on various sensors to perceive their environment and make informed decisions. In this section, we'll explore how to simulate different types of sensors in our digital twin environment.",
+  "source": "@site/docs/module2/sensors.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/sensors",
+  "permalink": "/ai-in-motion/docs/module2/sensors",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/sensors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Visualization",
+    "permalink": "/ai-in-motion/docs/module2/unity-visualization"
+  },
+  "next": {
+    "title": "Module 2 Exercises",
+    "permalink": "/ai-in-motion/docs/module2/exercises"
+  }
+}

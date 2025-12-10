@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module3/navigation",
+  "id": "module3/navigation",
+  "title": "Navigation with Isaac Sim and Nav2",
+  "description": "Navigation is a fundamental capability for mobile robots, enabling them to autonomously move from one location to another while avoiding obstacles. In this section, we'll explore how to configure and use Nav2 with Isaac Sim for bipedal humanoid robot navigation.",
+  "source": "@site/docs/module3/navigation.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/navigation",
+  "permalink": "/ai-in-motion/docs/module3/navigation",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/navigation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visual SLAM with Isaac ROS",
+    "permalink": "/ai-in-motion/docs/module3/vslam"
+  },
+  "next": {
+    "title": "Module 3 Exercises",
+    "permalink": "/ai-in-motion/docs/module3/exercises"
+  }
+}

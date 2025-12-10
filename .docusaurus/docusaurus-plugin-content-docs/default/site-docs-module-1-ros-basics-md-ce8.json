@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module1/ros-basics",
+  "id": "module1/ros-basics",
+  "title": "ROS 2 Basics",
+  "description": "In this section, we'll cover the fundamental concepts of ROS 2 (Robot Operating System 2), which serves as the communication backbone for robotic applications.",
+  "source": "@site/docs/module1/ros-basics.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/ros-basics",
+  "permalink": "/ai-in-motion/docs/module1/ros-basics",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module1/ros-basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to ROS 2",
+    "permalink": "/ai-in-motion/docs/module1/intro"
+  },
+  "next": {
+    "title": "Nodes, Topics, and Services",
+    "permalink": "/ai-in-motion/docs/module1/nodes-topics-services"
+  }
+}

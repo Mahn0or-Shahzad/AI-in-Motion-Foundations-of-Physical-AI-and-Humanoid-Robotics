@@ -1,55 +1,99 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# AI in Motion — Foundations of Physical AI and Humanoid Robotics Constitution
+
+**Project Name:** AI in Motion — Foundations of Physical AI and Humanoid Robotics
+**Purpose:** Define global rules for content creation, lab setup, AI/robotic simulations, hardware requirements, and workflow for Physical AI course.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Educational Focus
+Content must be beginner-friendly and clear. All materials follow a structured approach: Introduction → Concept → Example → Practical Exercise → Summary. The tone must be educational and neutral to ensure accessibility for all learners.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Modularity and Structure
+Course content is organized into distinct modules with clear learning objectives. Each module builds upon previous knowledge while maintaining independence for flexible learning paths. Modules follow a consistent structure to enhance comprehension.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Simulation-to-Real Pipeline
+All development follows a sim-to-real workflow: train in simulation → deploy on Jetson/physical kit. This approach ensures theoretical understanding translates to practical implementation while reducing hardware costs during development.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Technology Stack Consistency
+Use standardized tools across the course: ROS 2 Humble/Iron, Gazebo, Unity, NVIDIA Isaac Sim, and Jetson platforms. This consistency ensures reproducible results and reduces environment setup complexity.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Hardware Accessibility
+Design for multiple hardware tiers: Digital Twin Workstation (high-performance), Physical AI Edge Kit (intermediate), and Robot Lab (advanced). This ensures accessibility for various budgets and learning objectives.
 
-### [PRINCIPLE_6_NAME]
+### VI. AI Integration
+Integrate AI throughout the curriculum with focus on Vision-Language-Action (VLA) capabilities. All AI models must be versioned and saved for reproducibility, with RAG Chatbot integration for enhanced learning experiences.
 
+## Course Modules & Technical Requirements
 
-[PRINCIPLE__DESCRIPTION]
+### Module 1: ROS 2 — Robotic Nervous System
+- Nodes, Topics, Services
+- Python integration with ROS 2 using rclpy
+- URDF for humanoid description
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Module 2: Digital Twin (Gazebo & Unity)
+- Physics simulation: gravity, collisions
+- Sensor simulation: LiDAR, Depth Cameras, IMUs
+- High-fidelity visualization in Unity
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Module 3: NVIDIA Isaac AI-Robot Brain
+- Isaac Sim for photorealistic simulation
+- Isaac ROS for VSLAM and navigation
+- Nav2 for humanoid path planning
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Module 4: Vision-Language-Action (VLA)
+- Voice-to-Action using OpenAI Whisper
+- Cognitive Planning: natural language → ROS 2 actions
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Capstone: Autonomous Humanoid
+- Voice command → plan → navigation → perception → manipulation
+
+## Hardware & Lab Requirements
+
+### Digital Twin Workstation
+- GPU: NVIDIA RTX 4070 Ti (12GB) minimum
+- CPU: Intel i7 (13th Gen) or AMD Ryzen 9
+- RAM: 64GB DDR5 (32GB minimum)
+- OS: Ubuntu 22.04 LTS
+
+### Physical AI Edge Kit
+- Jetson Orin Nano (8GB) or Orin NX (16GB)
+- Intel RealSense D435i/D455 camera for RGB-D perception
+- USB IMU (BNO055) for balance
+- USB microphone/speaker array for Whisper integration
+
+### Robot Lab
+- Proxy robot: Unitree Go2 Edu for budget
+- Miniature humanoids: Hiwonder TonyPi Pro for basic kinematics
+- Premium: Unitree G1 for full sim-to-real humanoid deployment
+
+### Cloud Lab Option
+- AWS/Azure GPU cloud for Isaac Sim if local RTX unavailable
+- Edge kit (Jetson + sensors) mandatory for physical deployment
+
+## Development Workflow
+
+### Content Creation
+- Chapters stored as .mdx or Markdown files
+- User customization: theme, font size, language toggle (English/Urdu)
+- AI automatically suggests content improvements
+- Content history automatically saved in SP workflow
+
+### Quality Assurance
+- All AI models must be versioned and saved for reproducibility
+- RAG Chatbot integration for voice-command interpretation
+- Human review mandatory before final deployment
+- Changes logged with timestamp and responsible user
+
+### Assessment & Projects
+- ROS 2 package development project
+- Gazebo simulation implementation
+- Isaac-based perception pipeline
+- Capstone: Simulated humanoid robot with conversational AI
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices and guides all development activities within the AI in Motion project. All implementations must align with the educational objectives, hardware requirements, and technology stack defined herein. Amendments require documentation, approval, and migration planning to maintain consistency across all course materials.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+All PRs/reviews must verify compliance with educational objectives, hardware requirements, and technology stack consistency. Use this constitution for development guidance and decision-making processes.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-09 | **Last Amended**: 2025-12-09

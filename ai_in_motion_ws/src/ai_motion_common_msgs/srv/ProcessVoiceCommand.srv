@@ -1,0 +1,14 @@
+# ProcessVoiceCommand.srv
+# Service for processing voice commands
+
+# Request
+string audio_data  # Base64 encoded audio
+string language  # Language code (default: "en")
+
+---
+# Response
+bool success
+string transcription
+string intent
+string parameters
+string error_message

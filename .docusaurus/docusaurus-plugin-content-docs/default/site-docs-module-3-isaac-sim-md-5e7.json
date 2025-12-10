@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module3/isaac-sim",
+  "id": "module3/isaac-sim",
+  "title": "Isaac Sim for Photorealistic Simulation",
+  "description": "NVIDIA Isaac Sim is a powerful, modular simulation environment that provides photorealistic environments for training AI models for robotics applications. In this section, we'll explore how to use Isaac Sim for creating realistic training environments for humanoid robots.",
+  "source": "@site/docs/module3/isaac-sim.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/isaac-sim",
+  "permalink": "/ai-in-motion/docs/module3/isaac-sim",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module3/isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+    "permalink": "/ai-in-motion/docs/module3/intro"
+  },
+  "next": {
+    "title": "Visual SLAM with Isaac ROS",
+    "permalink": "/ai-in-motion/docs/module3/vslam"
+  }
+}

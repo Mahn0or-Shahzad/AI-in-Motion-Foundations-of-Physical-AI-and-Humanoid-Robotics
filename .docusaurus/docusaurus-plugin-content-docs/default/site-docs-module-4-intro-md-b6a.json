@@ -1,0 +1,24 @@
+{
+  "unversionedId": "module4/intro",
+  "id": "module4/intro",
+  "title": "intro",
+  "description": "This is a placeholder document for docs/module4/intro.md.",
+  "source": "@site/docs/module4/intro.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/intro",
+  "permalink": "/ai-in-motion/docs/module4/intro",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3 Exercises",
+    "permalink": "/ai-in-motion/docs/module3/exercises"
+  },
+  "next": {
+    "title": "voice-processing",
+    "permalink": "/ai-in-motion/docs/module4/voice-processing"
+  }
+}

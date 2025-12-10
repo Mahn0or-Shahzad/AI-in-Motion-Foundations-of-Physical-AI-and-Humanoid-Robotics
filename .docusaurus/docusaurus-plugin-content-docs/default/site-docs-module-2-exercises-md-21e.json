@@ -1,0 +1,27 @@
+{
+  "unversionedId": "module2/exercises",
+  "id": "module2/exercises",
+  "title": "Module 2 Exercises",
+  "description": "This section contains hands-on exercises to reinforce the concepts learned in Module 2: Digital Twin - Gazebo & Unity.",
+  "source": "@site/docs/module2/exercises.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/exercises",
+  "permalink": "/ai-in-motion/docs/module2/exercises",
+  "draft": false,
+  "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module2/exercises.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation",
+    "permalink": "/ai-in-motion/docs/module2/sensors"
+  },
+  "next": {
+    "title": "Module 3: NVIDIA Isaac AI-Robot Brain",
+    "permalink": "/ai-in-motion/docs/module3/intro"
+  }
+}
