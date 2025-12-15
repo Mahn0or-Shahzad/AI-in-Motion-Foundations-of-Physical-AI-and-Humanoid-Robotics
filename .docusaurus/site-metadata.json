@@ -26,9 +26,6 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "2.4.1"
-    },
-    "translate-plugin": {
-      "type": "local"
     }
   }
 }

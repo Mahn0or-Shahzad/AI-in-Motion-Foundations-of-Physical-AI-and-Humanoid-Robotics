@@ -20,11 +20,6 @@ function HomepageHeader() {
             to="/docs/intro">
             Start Learning
           </Link>
-          <Link
-            className="button button--outline button--lg"
-            to="/docs/intro">
-            Open Book
-          </Link>
         </div>
       </div>
     </header>

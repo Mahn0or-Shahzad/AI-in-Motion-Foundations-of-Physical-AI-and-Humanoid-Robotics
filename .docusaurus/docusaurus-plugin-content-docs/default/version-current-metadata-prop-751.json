@@ -135,31 +135,31 @@
         "items": [
           {
             "type": "link",
-            "label": "intro",
+            "label": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
             "href": "/ai-in-motion/docs/module4/intro",
             "docId": "module4/intro"
           },
           {
             "type": "link",
-            "label": "voice-processing",
+            "label": "Voice and Language Processing in VLA Systems — AI in Motion",
             "href": "/ai-in-motion/docs/module4/voice-processing",
             "docId": "module4/voice-processing"
           },
           {
             "type": "link",
-            "label": "cognitive-planning",
+            "label": "Cognitive Planning in VLA Systems — AI in Motion",
             "href": "/ai-in-motion/docs/module4/cognitive-planning",
             "docId": "module4/cognitive-planning"
           },
           {
             "type": "link",
-            "label": "integration",
+            "label": "VLA System Integration — AI in Motion",
             "href": "/ai-in-motion/docs/module4/integration",
             "docId": "module4/integration"
           },
           {
             "type": "link",
-            "label": "exercises",
+            "label": "VLA System Exercises — AI in Motion",
             "href": "/ai-in-motion/docs/module4/exercises",
             "docId": "module4/exercises"
           }
@@ -173,25 +173,25 @@
         "items": [
           {
             "type": "link",
-            "label": "intro",
+            "label": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
             "href": "/ai-in-motion/docs/capstone/intro",
             "docId": "capstone/intro"
           },
           {
             "type": "link",
-            "label": "integration",
+            "label": "Capstone: System Integration — AI in Motion",
             "href": "/ai-in-motion/docs/capstone/integration",
             "docId": "capstone/integration"
           },
           {
             "type": "link",
-            "label": "assessment",
+            "label": "Capstone: Assessment and Evaluation — AI in Motion",
             "href": "/ai-in-motion/docs/capstone/assessment",
             "docId": "capstone/assessment"
           },
           {
             "type": "link",
-            "label": "exercises",
+            "label": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
             "href": "/ai-in-motion/docs/capstone/exercises",
             "docId": "capstone/exercises"
           }
@@ -201,7 +201,7 @@
       },
       {
         "type": "link",
-        "label": "conclusion",
+        "label": "Conclusion — AI in Motion",
         "href": "/ai-in-motion/docs/conclusion",
         "docId": "conclusion"
       }
@@ -210,32 +210,32 @@
   "docs": {
     "capstone/assessment": {
       "id": "capstone/assessment",
-      "title": "assessment",
-      "description": "This is a placeholder document for docs/capstone/assessment.md.",
+      "title": "Capstone: Assessment and Evaluation — AI in Motion",
+      "description": "The assessment and evaluation phase of the autonomous humanoid project is crucial for measuring system performance, identifying areas for improvement, and validating the effectiveness of your integrated solution using ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems. This module provides comprehensive frameworks and methodologies for evaluating complex humanoid systems.",
       "sidebar": "tutorialSidebar"
     },
     "capstone/exercises": {
       "id": "capstone/exercises",
-      "title": "exercises",
-      "description": "This is a placeholder document for docs/capstone/exercises.md.",
+      "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
+      "description": "This module provides comprehensive exercises that integrate all concepts learned throughout the course into practical implementations for autonomous humanoid systems. These exercises build upon previous modules (ROS 2, Digital Twin, NVIDIA Isaac AI, and Vision-Language-Action) to create increasingly sophisticated and integrated systems.",
       "sidebar": "tutorialSidebar"
     },
     "capstone/integration": {
       "id": "capstone/integration",
-      "title": "integration",
-      "description": "This is a placeholder document for docs/capstone/integration.md.",
+      "title": "Capstone: System Integration — AI in Motion",
+      "description": "System integration represents the most critical phase of developing an autonomous humanoid robot. This module focuses on the complex task of connecting ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action components into a cohesive, functional whole that can operate autonomously in real-world environments.",
       "sidebar": "tutorialSidebar"
     },
     "capstone/intro": {
       "id": "capstone/intro",
-      "title": "intro",
-      "description": "This is a placeholder document for docs/capstone/intro.md.",
+      "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
+      "description": "Welcome to the capstone module of the \"AI in Motion — Foundations of Physical AI and Humanoid Robotics\" course. This module represents the culmination of your learning journey, where you will integrate all the concepts explored throughout the course into a comprehensive autonomous humanoid system.",
       "sidebar": "tutorialSidebar"
     },
     "conclusion": {
       "id": "conclusion",
-      "title": "conclusion",
-      "description": "This is a placeholder document for docs/conclusion.md.",
+      "title": "Conclusion — AI in Motion",
+      "description": "As we reach the end of this comprehensive journey through \"AI in Motion — Foundations of Physical AI and Humanoid Robotics,\" we have explored the fascinating intersection of artificial intelligence, robotics, and embodied cognition. This course has taken you through the fundamental principles, advanced techniques, and practical implementations that define the cutting-edge field of physical AI and humanoid robotics, focusing specifically on four core technologies: ROS 2, Digital Twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -346,32 +346,32 @@
     },
     "module4/cognitive-planning": {
       "id": "module4/cognitive-planning",
-      "title": "cognitive-planning",
-      "description": "This is a placeholder document for docs/module4/cognitive-planning.md.",
+      "title": "Cognitive Planning in VLA Systems — AI in Motion",
+      "description": "Cognitive planning serves as the central intelligence hub in Vision-Language-Action (VLA) systems, bridging the gap between high-level goals expressed in natural language and low-level motor actions executed by robotic systems. This module explores how cognitive architectures enable robots to reason about their environment, plan complex sequences of actions, and adapt to changing circumstances in real-time.",
       "sidebar": "tutorialSidebar"
     },
     "module4/exercises": {
       "id": "module4/exercises",
-      "title": "exercises",
-      "description": "This is a placeholder document for docs/module4/exercises.md.",
+      "title": "VLA System Exercises — AI in Motion",
+      "description": "This module provides hands-on exercises to reinforce your understanding of Vision-Language-Action (VLA) systems. These exercises will help you apply theoretical concepts to practical implementations and develop skills in building integrated VLA systems.",
       "sidebar": "tutorialSidebar"
     },
     "module4/integration": {
       "id": "module4/integration",
-      "title": "integration",
-      "description": "This is a placeholder document for docs/module4/integration.md.",
+      "title": "VLA System Integration — AI in Motion",
+      "description": "The integration of Vision, Language, and Action components into a cohesive system represents one of the most challenging aspects of developing effective VLA (Vision-Language-Action) systems. This module explores the architectural patterns, communication protocols, and implementation strategies required to create seamless integration between perception, cognition, and action in physical AI systems.",
       "sidebar": "tutorialSidebar"
     },
     "module4/intro": {
       "id": "module4/intro",
-      "title": "intro",
-      "description": "This is a placeholder document for docs/module4/intro.md.",
+      "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
+      "description": "Vision-Language-Action (VLA) represents a cutting-edge paradigm in artificial intelligence that combines computer vision, natural language processing, and robotic action control into unified systems. Unlike traditional approaches where these components operate independently, VLA systems create an integrated pipeline that enables robots and AI agents to perceive their environment, understand human instructions in natural language, and execute appropriate physical actions.",
       "sidebar": "tutorialSidebar"
     },
     "module4/voice-processing": {
       "id": "module4/voice-processing",
-      "title": "voice-processing",
-      "description": "This is a placeholder document for docs/module4/voice-processing.md.",
+      "title": "Voice and Language Processing in VLA Systems — AI in Motion",
+      "description": "Voice and language processing form a critical component of Vision-Language-Action (VLA) systems, enabling robots to understand human instructions, engage in dialogue, and interpret semantic meaning from spoken or written commands. This module explores how language understanding integrates with visual perception and action execution to create more intuitive human-robot interactions.",
       "sidebar": "tutorialSidebar"
     }
   }

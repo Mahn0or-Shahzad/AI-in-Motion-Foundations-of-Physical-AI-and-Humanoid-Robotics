@@ -1,8 +1,8 @@
 {
   "unversionedId": "capstone/assessment",
   "id": "capstone/assessment",
-  "title": "assessment",
-  "description": "This is a placeholder document for docs/capstone/assessment.md.",
+  "title": "Capstone: Assessment and Evaluation — AI in Motion",
+  "description": "The assessment and evaluation phase of the autonomous humanoid project is crucial for measuring system performance, identifying areas for improvement, and validating the effectiveness of your integrated solution using ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems. This module provides comprehensive frameworks and methodologies for evaluating complex humanoid systems.",
   "source": "@site/docs/capstone/assessment.md",
   "sourceDirName": "capstone",
   "slug": "/capstone/assessment",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/assessment.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Capstone: Assessment and Evaluation — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "integration",
+    "title": "Capstone: System Integration — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/integration"
   },
   "next": {
-    "title": "exercises",
+    "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/exercises"
   }
 }

@@ -1,8 +1,8 @@
 {
   "unversionedId": "conclusion",
   "id": "conclusion",
-  "title": "conclusion",
-  "description": "This is a placeholder document for docs/conclusion.md.",
+  "title": "Conclusion — AI in Motion",
+  "description": "As we reach the end of this comprehensive journey through \"AI in Motion — Foundations of Physical AI and Humanoid Robotics,\" we have explored the fascinating intersection of artificial intelligence, robotics, and embodied cognition. This course has taken you through the fundamental principles, advanced techniques, and practical implementations that define the cutting-edge field of physical AI and humanoid robotics, focusing specifically on four core technologies: ROS 2, Digital Twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems.",
   "source": "@site/docs/conclusion.md",
   "sourceDirName": ".",
   "slug": "/conclusion",
@@ -11,10 +11,12 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/conclusion.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Conclusion — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "exercises",
+    "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/exercises"
   }
 }

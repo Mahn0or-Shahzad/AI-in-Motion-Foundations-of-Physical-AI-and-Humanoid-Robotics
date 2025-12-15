@@ -22,8 +22,8 @@
             {
               "unversionedId": "capstone/assessment",
               "id": "capstone/assessment",
-              "title": "assessment",
-              "description": "This is a placeholder document for docs/capstone/assessment.md.",
+              "title": "Capstone: Assessment and Evaluation — AI in Motion",
+              "description": "The assessment and evaluation phase of the autonomous humanoid project is crucial for measuring system performance, identifying areas for improvement, and validating the effectiveness of your integrated solution using ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems. This module provides comprehensive frameworks and methodologies for evaluating complex humanoid systems.",
               "source": "@site/docs/capstone/assessment.md",
               "sourceDirName": "capstone",
               "slug": "/capstone/assessment",
@@ -32,22 +32,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/assessment.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Capstone: Assessment and Evaluation — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "integration",
+                "title": "Capstone: System Integration — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/integration"
               },
               "next": {
-                "title": "exercises",
+                "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/exercises"
               }
             },
             {
               "unversionedId": "capstone/exercises",
               "id": "capstone/exercises",
-              "title": "exercises",
-              "description": "This is a placeholder document for docs/capstone/exercises.md.",
+              "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
+              "description": "This module provides comprehensive exercises that integrate all concepts learned throughout the course into practical implementations for autonomous humanoid systems. These exercises build upon previous modules (ROS 2, Digital Twin, NVIDIA Isaac AI, and Vision-Language-Action) to create increasingly sophisticated and integrated systems.",
               "source": "@site/docs/capstone/exercises.md",
               "sourceDirName": "capstone",
               "slug": "/capstone/exercises",
@@ -56,22 +58,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/exercises.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "assessment",
+                "title": "Capstone: Assessment and Evaluation — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/assessment"
               },
               "next": {
-                "title": "conclusion",
+                "title": "Conclusion — AI in Motion",
                 "permalink": "/ai-in-motion/docs/conclusion"
               }
             },
             {
               "unversionedId": "capstone/integration",
               "id": "capstone/integration",
-              "title": "integration",
-              "description": "This is a placeholder document for docs/capstone/integration.md.",
+              "title": "Capstone: System Integration — AI in Motion",
+              "description": "System integration represents the most critical phase of developing an autonomous humanoid robot. This module focuses on the complex task of connecting ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action components into a cohesive, functional whole that can operate autonomously in real-world environments.",
               "source": "@site/docs/capstone/integration.md",
               "sourceDirName": "capstone",
               "slug": "/capstone/integration",
@@ -80,22 +84,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/integration.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Capstone: System Integration — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
+                "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/intro"
               },
               "next": {
-                "title": "assessment",
+                "title": "Capstone: Assessment and Evaluation — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/assessment"
               }
             },
             {
               "unversionedId": "capstone/intro",
               "id": "capstone/intro",
-              "title": "intro",
-              "description": "This is a placeholder document for docs/capstone/intro.md.",
+              "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
+              "description": "Welcome to the capstone module of the \"AI in Motion — Foundations of Physical AI and Humanoid Robotics\" course. This module represents the culmination of your learning journey, where you will integrate all the concepts explored throughout the course into a comprehensive autonomous humanoid system.",
               "source": "@site/docs/capstone/intro.md",
               "sourceDirName": "capstone",
               "slug": "/capstone/intro",
@@ -104,22 +110,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "exercises",
+                "title": "VLA System Exercises — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/exercises"
               },
               "next": {
-                "title": "integration",
+                "title": "Capstone: System Integration — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/integration"
               }
             },
             {
               "unversionedId": "conclusion",
               "id": "conclusion",
-              "title": "conclusion",
-              "description": "This is a placeholder document for docs/conclusion.md.",
+              "title": "Conclusion — AI in Motion",
+              "description": "As we reach the end of this comprehensive journey through \"AI in Motion — Foundations of Physical AI and Humanoid Robotics,\" we have explored the fascinating intersection of artificial intelligence, robotics, and embodied cognition. This course has taken you through the fundamental principles, advanced techniques, and practical implementations that define the cutting-edge field of physical AI and humanoid robotics, focusing specifically on four core technologies: ROS 2, Digital Twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action systems.",
               "source": "@site/docs/conclusion.md",
               "sourceDirName": ".",
               "slug": "/conclusion",
@@ -128,10 +136,12 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/conclusion.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Conclusion — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "exercises",
+                "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/exercises"
               }
             },
@@ -462,7 +472,7 @@
                 "permalink": "/ai-in-motion/docs/module3/navigation"
               },
               "next": {
-                "title": "intro",
+                "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/intro"
               }
             },
@@ -592,8 +602,8 @@
             {
               "unversionedId": "module4/cognitive-planning",
               "id": "module4/cognitive-planning",
-              "title": "cognitive-planning",
-              "description": "This is a placeholder document for docs/module4/cognitive-planning.md.",
+              "title": "Cognitive Planning in VLA Systems — AI in Motion",
+              "description": "Cognitive planning serves as the central intelligence hub in Vision-Language-Action (VLA) systems, bridging the gap between high-level goals expressed in natural language and low-level motor actions executed by robotic systems. This module explores how cognitive architectures enable robots to reason about their environment, plan complex sequences of actions, and adapt to changing circumstances in real-time.",
               "source": "@site/docs/module4/cognitive-planning.md",
               "sourceDirName": "module4",
               "slug": "/module4/cognitive-planning",
@@ -602,22 +612,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/cognitive-planning.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Cognitive Planning in VLA Systems — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "voice-processing",
+                "title": "Voice and Language Processing in VLA Systems — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/voice-processing"
               },
               "next": {
-                "title": "integration",
+                "title": "VLA System Integration — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/integration"
               }
             },
             {
               "unversionedId": "module4/exercises",
               "id": "module4/exercises",
-              "title": "exercises",
-              "description": "This is a placeholder document for docs/module4/exercises.md.",
+              "title": "VLA System Exercises — AI in Motion",
+              "description": "This module provides hands-on exercises to reinforce your understanding of Vision-Language-Action (VLA) systems. These exercises will help you apply theoretical concepts to practical implementations and develop skills in building integrated VLA systems.",
               "source": "@site/docs/module4/exercises.md",
               "sourceDirName": "module4",
               "slug": "/module4/exercises",
@@ -626,22 +638,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/exercises.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "VLA System Exercises — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "integration",
+                "title": "VLA System Integration — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/integration"
               },
               "next": {
-                "title": "intro",
+                "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
                 "permalink": "/ai-in-motion/docs/capstone/intro"
               }
             },
             {
               "unversionedId": "module4/integration",
               "id": "module4/integration",
-              "title": "integration",
-              "description": "This is a placeholder document for docs/module4/integration.md.",
+              "title": "VLA System Integration — AI in Motion",
+              "description": "The integration of Vision, Language, and Action components into a cohesive system represents one of the most challenging aspects of developing effective VLA (Vision-Language-Action) systems. This module explores the architectural patterns, communication protocols, and implementation strategies required to create seamless integration between perception, cognition, and action in physical AI systems.",
               "source": "@site/docs/module4/integration.md",
               "sourceDirName": "module4",
               "slug": "/module4/integration",
@@ -650,22 +664,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/integration.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "VLA System Integration — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "cognitive-planning",
+                "title": "Cognitive Planning in VLA Systems — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
               },
               "next": {
-                "title": "exercises",
+                "title": "VLA System Exercises — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/exercises"
               }
             },
             {
               "unversionedId": "module4/intro",
               "id": "module4/intro",
-              "title": "intro",
-              "description": "This is a placeholder document for docs/module4/intro.md.",
+              "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
+              "description": "Vision-Language-Action (VLA) represents a cutting-edge paradigm in artificial intelligence that combines computer vision, natural language processing, and robotic action control into unified systems. Unlike traditional approaches where these components operate independently, VLA systems create an integrated pipeline that enables robots and AI agents to perceive their environment, understand human instructions in natural language, and execute appropriate physical actions.",
               "source": "@site/docs/module4/intro.md",
               "sourceDirName": "module4",
               "slug": "/module4/intro",
@@ -674,22 +690,24 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/intro.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 3 Exercises",
                 "permalink": "/ai-in-motion/docs/module3/exercises"
               },
               "next": {
-                "title": "voice-processing",
+                "title": "Voice and Language Processing in VLA Systems — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/voice-processing"
               }
             },
             {
               "unversionedId": "module4/voice-processing",
               "id": "module4/voice-processing",
-              "title": "voice-processing",
-              "description": "This is a placeholder document for docs/module4/voice-processing.md.",
+              "title": "Voice and Language Processing in VLA Systems — AI in Motion",
+              "description": "Voice and language processing form a critical component of Vision-Language-Action (VLA) systems, enabling robots to understand human instructions, engage in dialogue, and interpret semantic meaning from spoken or written commands. This module explores how language understanding integrates with visual perception and action execution to create more intuitive human-robot interactions.",
               "source": "@site/docs/module4/voice-processing.md",
               "sourceDirName": "module4",
               "slug": "/module4/voice-processing",
@@ -698,14 +716,16 @@
               "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/voice-processing.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Voice and Language Processing in VLA Systems — AI in Motion"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
+                "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/intro"
               },
               "next": {
-                "title": "cognitive-planning",
+                "title": "Cognitive Planning in VLA Systems — AI in Motion",
                 "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
               }
             }
@@ -875,8 +895,8 @@
             "source": "@site/blog/first-post.md",
             "title": "Getting Started with AI in Motion: Your First Humanoid Robot Simulation",
             "description": "Welcome to AI in Motion: Foundations of Physical AI and Humanoid Robotics! In this post, we will guide you through setting up your first humanoid robot simulation using ROS 2 and Gazebo.",
-            "date": "2025-12-09T17:04:32.784Z",
-            "formattedDate": "December 9, 2025",
+            "date": "2025-12-10T18:17:01.000Z",
+            "formattedDate": "December 10, 2025",
             "tags": [],
             "readingTime": 0.53,
             "hasTruncateMarker": false,
@@ -919,7 +939,6 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
-  "translate-plugin": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

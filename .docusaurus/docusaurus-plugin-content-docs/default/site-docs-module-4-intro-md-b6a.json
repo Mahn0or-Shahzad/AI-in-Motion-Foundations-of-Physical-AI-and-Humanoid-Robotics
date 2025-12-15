@@ -1,8 +1,8 @@
 {
   "unversionedId": "module4/intro",
   "id": "module4/intro",
-  "title": "intro",
-  "description": "This is a placeholder document for docs/module4/intro.md.",
+  "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
+  "description": "Vision-Language-Action (VLA) represents a cutting-edge paradigm in artificial intelligence that combines computer vision, natural language processing, and robotic action control into unified systems. Unlike traditional approaches where these components operate independently, VLA systems create an integrated pipeline that enables robots and AI agents to perceive their environment, understand human instructions in natural language, and execute appropriate physical actions.",
   "source": "@site/docs/module4/intro.md",
   "sourceDirName": "module4",
   "slug": "/module4/intro",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 3 Exercises",
     "permalink": "/ai-in-motion/docs/module3/exercises"
   },
   "next": {
-    "title": "voice-processing",
+    "title": "Voice and Language Processing in VLA Systems — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/voice-processing"
   }
 }

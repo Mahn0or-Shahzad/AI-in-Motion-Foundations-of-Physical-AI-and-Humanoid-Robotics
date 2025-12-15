@@ -1,8 +1,8 @@
 {
   "unversionedId": "module4/integration",
   "id": "module4/integration",
-  "title": "integration",
-  "description": "This is a placeholder document for docs/module4/integration.md.",
+  "title": "VLA System Integration — AI in Motion",
+  "description": "The integration of Vision, Language, and Action components into a cohesive system represents one of the most challenging aspects of developing effective VLA (Vision-Language-Action) systems. This module explores the architectural patterns, communication protocols, and implementation strategies required to create seamless integration between perception, cognition, and action in physical AI systems.",
   "source": "@site/docs/module4/integration.md",
   "sourceDirName": "module4",
   "slug": "/module4/integration",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/integration.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "VLA System Integration — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "cognitive-planning",
+    "title": "Cognitive Planning in VLA Systems — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
   },
   "next": {
-    "title": "exercises",
+    "title": "VLA System Exercises — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/exercises"
   }
 }

@@ -1,8 +1,8 @@
 {
   "unversionedId": "capstone/exercises",
   "id": "capstone/exercises",
-  "title": "exercises",
-  "description": "This is a placeholder document for docs/capstone/exercises.md.",
+  "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion",
+  "description": "This module provides comprehensive exercises that integrate all concepts learned throughout the course into practical implementations for autonomous humanoid systems. These exercises build upon previous modules (ROS 2, Digital Twin, NVIDIA Isaac AI, and Vision-Language-Action) to create increasingly sophisticated and integrated systems.",
   "source": "@site/docs/capstone/exercises.md",
   "sourceDirName": "capstone",
   "slug": "/capstone/exercises",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/exercises.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Capstone: Autonomous Humanoid Exercises — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "assessment",
+    "title": "Capstone: Assessment and Evaluation — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/assessment"
   },
   "next": {
-    "title": "conclusion",
+    "title": "Conclusion — AI in Motion",
     "permalink": "/ai-in-motion/docs/conclusion"
   }
 }

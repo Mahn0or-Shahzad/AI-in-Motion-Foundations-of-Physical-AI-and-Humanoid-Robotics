@@ -1,8 +1,8 @@
 {
   "unversionedId": "capstone/intro",
   "id": "capstone/intro",
-  "title": "intro",
-  "description": "This is a placeholder document for docs/capstone/intro.md.",
+  "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
+  "description": "Welcome to the capstone module of the \"AI in Motion — Foundations of Physical AI and Humanoid Robotics\" course. This module represents the culmination of your learning journey, where you will integrate all the concepts explored throughout the course into a comprehensive autonomous humanoid system.",
   "source": "@site/docs/capstone/intro.md",
   "sourceDirName": "capstone",
   "slug": "/capstone/intro",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "exercises",
+    "title": "VLA System Exercises — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/exercises"
   },
   "next": {
-    "title": "integration",
+    "title": "Capstone: System Integration — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/integration"
   }
 }

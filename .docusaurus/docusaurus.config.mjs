@@ -39,9 +39,6 @@ export default {
       }
     ]
   ],
-  "plugins": [
-    null
-  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -66,11 +63,6 @@ export default {
           "href": "https://github.com/your-username/ai-in-motion",
           "label": "GitHub",
           "position": "right"
-        },
-        {
-          "type": "html",
-          "position": "right",
-          "value": "<button id=\"translateBtn\" onclick=\"window.translateToUrdu && window.translateToUrdu()\" style=\"background-color: #4285f4; color: white; border: none; padding: 0.5rem 1rem; border-radius: 24px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-left: 0.5rem; font-size: 0.8rem;\">Translate to Urdu</button>"
         }
       ],
       "hideOnScroll": false
@@ -344,6 +336,7 @@ export default {
     "static"
   ],
   "customFields": {},
+  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

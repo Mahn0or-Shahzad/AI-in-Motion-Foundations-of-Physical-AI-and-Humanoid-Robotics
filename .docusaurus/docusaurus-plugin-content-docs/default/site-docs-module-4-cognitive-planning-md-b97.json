@@ -1,8 +1,8 @@
 {
   "unversionedId": "module4/cognitive-planning",
   "id": "module4/cognitive-planning",
-  "title": "cognitive-planning",
-  "description": "This is a placeholder document for docs/module4/cognitive-planning.md.",
+  "title": "Cognitive Planning in VLA Systems — AI in Motion",
+  "description": "Cognitive planning serves as the central intelligence hub in Vision-Language-Action (VLA) systems, bridging the gap between high-level goals expressed in natural language and low-level motor actions executed by robotic systems. This module explores how cognitive architectures enable robots to reason about their environment, plan complex sequences of actions, and adapt to changing circumstances in real-time.",
   "source": "@site/docs/module4/cognitive-planning.md",
   "sourceDirName": "module4",
   "slug": "/module4/cognitive-planning",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/cognitive-planning.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Cognitive Planning in VLA Systems — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "voice-processing",
+    "title": "Voice and Language Processing in VLA Systems — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/voice-processing"
   },
   "next": {
-    "title": "integration",
+    "title": "VLA System Integration — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/integration"
   }
 }

@@ -1,8 +1,8 @@
 {
   "unversionedId": "module4/voice-processing",
   "id": "module4/voice-processing",
-  "title": "voice-processing",
-  "description": "This is a placeholder document for docs/module4/voice-processing.md.",
+  "title": "Voice and Language Processing in VLA Systems — AI in Motion",
+  "description": "Voice and language processing form a critical component of Vision-Language-Action (VLA) systems, enabling robots to understand human instructions, engage in dialogue, and interpret semantic meaning from spoken or written commands. This module explores how language understanding integrates with visual perception and action execution to create more intuitive human-robot interactions.",
   "source": "@site/docs/module4/voice-processing.md",
   "sourceDirName": "module4",
   "slug": "/module4/voice-processing",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/voice-processing.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Voice and Language Processing in VLA Systems — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "intro",
+    "title": "Introduction to Vision-Language-Action (VLA) — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/intro"
   },
   "next": {
-    "title": "cognitive-planning",
+    "title": "Cognitive Planning in VLA Systems — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/cognitive-planning"
   }
 }

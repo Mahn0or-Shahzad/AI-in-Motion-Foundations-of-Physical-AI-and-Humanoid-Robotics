@@ -1,8 +1,8 @@
 {
   "unversionedId": "module4/exercises",
   "id": "module4/exercises",
-  "title": "exercises",
-  "description": "This is a placeholder document for docs/module4/exercises.md.",
+  "title": "VLA System Exercises — AI in Motion",
+  "description": "This module provides hands-on exercises to reinforce your understanding of Vision-Language-Action (VLA) systems. These exercises will help you apply theoretical concepts to practical implementations and develop skills in building integrated VLA systems.",
   "source": "@site/docs/module4/exercises.md",
   "sourceDirName": "module4",
   "slug": "/module4/exercises",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/module4/exercises.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "VLA System Exercises — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "integration",
+    "title": "VLA System Integration — AI in Motion",
     "permalink": "/ai-in-motion/docs/module4/integration"
   },
   "next": {
-    "title": "intro",
+    "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/intro"
   }
 }

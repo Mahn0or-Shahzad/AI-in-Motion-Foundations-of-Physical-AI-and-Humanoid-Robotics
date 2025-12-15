@@ -1,8 +1,8 @@
 {
   "unversionedId": "capstone/integration",
   "id": "capstone/integration",
-  "title": "integration",
-  "description": "This is a placeholder document for docs/capstone/integration.md.",
+  "title": "Capstone: System Integration — AI in Motion",
+  "description": "System integration represents the most critical phase of developing an autonomous humanoid robot. This module focuses on the complex task of connecting ROS 2, digital twin technologies (Gazebo & Unity), NVIDIA Isaac AI, and Vision-Language-Action components into a cohesive, functional whole that can operate autonomously in real-world environments.",
   "source": "@site/docs/capstone/integration.md",
   "sourceDirName": "capstone",
   "slug": "/capstone/integration",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/your-username/ai-in-motion/tree/main/docs/capstone/integration.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Capstone: System Integration — AI in Motion"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "intro",
+    "title": "Capstone: Autonomous Humanoid Introduction — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/intro"
   },
   "next": {
-    "title": "assessment",
+    "title": "Capstone: Assessment and Evaluation — AI in Motion",
     "permalink": "/ai-in-motion/docs/capstone/assessment"
   }
 }
