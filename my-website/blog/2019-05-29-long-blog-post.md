@@ -1,8 +1,11 @@
 ---
-slug: long-blog-post
+slug: /blog/long-blog-post
 title: Long Blog Post
-authors: yangshun
+authors:
+  - yangshun
 tags: [hello, docusaurus]
+date: 2019-05-29
+description: This is the summary of a very long blog post
 ---
 
 This is the summary of a very long blog post,

@@ -8,7 +8,7 @@ export default {
   "tagline": "Learn Physical AI and Humanoid Robotics through hands-on practice",
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
-  "baseUrl": '/',
+  "baseUrl": "/ai-in-motion/",
   "organizationName": "your-username",
   "projectName": "ai-in-motion",
   "onBrokenLinks": "throw",

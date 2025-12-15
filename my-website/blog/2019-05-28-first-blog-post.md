@@ -1,8 +1,12 @@
 ---
-slug: first-blog-post
+slug: /blog/first-blog-post
 title: First Blog Post
-authors: [slorber, yangshun]
+authors:
+  - slorber
+  - yangshun
 tags: [hola, docusaurus]
+date: 2019-05-28
+description: This is the first blog post
 ---
 
 Lorem ipsum dolor sit amet...
