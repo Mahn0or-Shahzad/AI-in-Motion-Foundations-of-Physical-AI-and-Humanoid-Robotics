@@ -53,22 +53,22 @@ const config = {
           editUrl:
             'https://github.com/your-username/ai-in-motion/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Remove feedOptions to avoid potential build issues
-          // feedOptions: {
-          //   type: ['rss', 'atom'],
-          //   xslt: true,
-          // },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/your-username/ai-in-motion/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Remove feedOptions to avoid potential build issues
+        //   // feedOptions: {
+        //   //   type: ['rss', 'atom'],
+        //   //   xslt: true,
+        //   // },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/your-username/ai-in-motion/tree/main/',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -97,7 +97,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/your-username/ai-in-motion',
             label: 'GitHub',
@@ -133,10 +132,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/your-username/ai-in-motion',
