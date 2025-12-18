@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(findstr vercel)"
+      "Bash(findstr vercel)",
+      "Bash(rm -rf my-website/blog)",
+      "Bash(findstr blog)",
+      "Bash(npm run build)"
     ]
   }
 }
