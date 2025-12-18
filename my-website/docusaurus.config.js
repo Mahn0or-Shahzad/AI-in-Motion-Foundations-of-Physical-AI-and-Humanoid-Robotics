@@ -4,10 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-// import {themes as prismThemes} from 'prism-react-renderer';
-
-import lightCodeTheme from 'prism-react-renderer/themes/github';
-import darkCodeTheme from 'prism-react-renderer/themes/dracula';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 
 
@@ -19,6 +16,12 @@ const config = {
   title: 'AI in Motion: Foundations of Physical AI and Humanoid Robotics',
   tagline: 'Learn Physical AI and Humanoid Robotics through hands-on practice',
   favicon: 'img/favicon.ico',
+
+  // Future flags to improve compatibility
+  future: {
+    experimental_faster: true,
+    v4: true,  
+  },
 
   // Set the production url of your site here
   url: 'https://ai-in-motion.vercel.app', // Updated for Vercel deployment
@@ -32,6 +35,12 @@ const config = {
   projectName: 'ai-in-motion', // Usually your repo name.
 
   onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to prevent build failures
+  onBrokenMarkdownLinks: 'warn', // This will be moved to markdown.hooks in future versions
+  markdown: {
+    mermaid: true,
+    format: 'detect',
+    parseFrontMatter: async (params) => params.defaultParseFrontMatter(params),
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -53,22 +62,7 @@ const config = {
           editUrl:
             'https://github.com/your-username/ai-in-motion/tree/main/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Remove feedOptions to avoid potential build issues
-        //   // feedOptions: {
-        //   //   type: ['rss', 'atom'],
-        //   //   xslt: true,
-        //   // },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/your-username/ai-in-motion/tree/main/',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
+        blog: false, // Explicitly disable blog
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -142,8 +136,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} AI in Motion. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
